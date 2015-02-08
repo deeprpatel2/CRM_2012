@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="true" default-lazy="true">
+	<class name="com.pojos.EmployeeDb" table="employee">
+		<id name="employeeId" column="EmployeeId">
+		 	<generator class="increment"/>
+		</id>
+
+		
+		<property name="mobileNo" column="MobileNo" not-null="true"/>
+		<property name="middleName" column="MiddleName" not-null="true"/>
+		<property name="emailId" column="EmailId" not-null="true"/>
+		<property name="designationId" column="DesignationId" not-null="true"/>
+		<property name="username" column="Username" not-null="true"/>
+		<property name="password" column="Password" not-null="true"/>
+		<property name="firstName" column="FirstName" not-null="true"/>
+		<property name="lastName" column="LastName" not-null="true"/>
+		<property name="date" column="Date" not-null="true"/>
+		
+		
+	</class>
+</hibernate-mapping>
