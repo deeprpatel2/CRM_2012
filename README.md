@@ -1,3 +1,3 @@
 # CRM_2012
-
-This Project was academic project done by Me(Deep Patel) and Samarth Narielwala
+# First project of my life.
+This Project was developed in last year(2012) of my under graduation (Deep Patel & Samarth Narielwala)
